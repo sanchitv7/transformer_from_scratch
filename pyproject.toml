@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transformer_from_scratch"
+version = "0.1.0"
+description = "Implementation of a Transformer model from scratch"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+requires-python = ">=3.13"
+dependencies = [
+    "torch>=2.7.1",
+    "matplotlib>=3.10.3",
+    "seaborn>=0.13.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "black",
+    "isort",
+    "mypy",
+]
+
+test = [
+    "pytest",
+    "pytest-cov",
+]
