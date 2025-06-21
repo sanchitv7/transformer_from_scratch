@@ -134,6 +134,7 @@ data/
 
 # Environment variables
 .env
+.envrc
 .venv
 env/
 venv/

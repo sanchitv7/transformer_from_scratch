@@ -7,7 +7,7 @@ name = "transformer_from_scratch"
 version = "0.1.0"
 description = "Implementation of a Transformer model from scratch"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "Sanchit Verma"},
 ]
 requires-python = ">=3.13"
 dependencies = [
